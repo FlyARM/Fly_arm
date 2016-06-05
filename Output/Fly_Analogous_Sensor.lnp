@@ -1,0 +1,4 @@
+--cpu ARM7TDMI ".\output\main.o" ".\output\sam7.o" --strict --scatter ".\Output\Fly_Analogous_Sensor.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Fly_Analogous_Sensor.map" -o ".\Output\Fly_Analogous_Sensor.axf"

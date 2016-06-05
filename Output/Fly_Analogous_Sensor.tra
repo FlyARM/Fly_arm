@@ -1,0 +1,20 @@
+*** Creating Trace Output File '.\Output\Fly_Analogous_Sensor.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\main.o"'
+### List of Objects: adding '".\output\sam7.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI ".\output\main.o" ".\output\sam7.o" --strict --scatter ".\Output\Fly_Analogous_Sensor.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Fly_Analogous_Sensor.map" -o ".\Output\Fly_Analogous_Sensor.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Output\Fly_Analogous_Sensor.axf'
+### ADS-LD Command File: '.\Output\Fly_Analogous_Sensor.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Output\Fly_Analogous_Sensor.lnp', Handle=0x0000048C
+### Writing '.lnp' file
+### ADS-LD Command file '.\Output\Fly_Analogous_Sensor.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
